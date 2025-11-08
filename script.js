@@ -12,5 +12,7 @@ function applyTheme() {
         document.body.classList.add('dark-theme');
     } else {
         document.body.classList.remove('dark-theme');
+        // Optional: Set a default light theme class
+        document.body.classList.add('light-theme');
     }
 }
