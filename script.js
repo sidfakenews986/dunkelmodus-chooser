@@ -10,6 +10,7 @@ function applyTheme() {
     const selectedTheme = document.getElementById('themes').value;
     if (selectedTheme === 'dark') {
         document.body.classList.add('dark-theme');
+        document.body.classList.remove('light-theme');
     } else {
         document.body.classList.remove('dark-theme');
         // Optional: Set a default light theme class
