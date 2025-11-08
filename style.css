@@ -10,6 +10,11 @@ dark-theme {
     color: #ffffff;
 }
 
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
 div {
     margin: 20px;
 }
