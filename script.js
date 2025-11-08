@@ -6,6 +6,10 @@ document.getElementById('apply-theme').addEventListener('click', function() {
     applyTheme();
 });
 
+document.getElementById('themes').addEventListener('change', function() {
+    applyTheme();
+});
+
 function applyTheme() {
     const selectedTheme = document.getElementById('themes').value;
     if (selectedTheme === 'dark') {
